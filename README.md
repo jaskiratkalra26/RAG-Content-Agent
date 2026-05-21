@@ -159,10 +159,10 @@ python main.py --query "What is AEO and why does it matter?"
 **Option B: API Server** (scalable, multi-user)
 
 ```bash
-# Development (single worker)
-uvicorn server:app --reload
+# Development (Windows / local)
+uvicorn server:app --host 127.0.0.1 --port 8000 --reload
 
-# Production (multi-worker)
+# Production (Linux / Docker — multi-worker)
 uvicorn server:app --host 0.0.0.0 --port 8000 --workers 4
 ```
 
