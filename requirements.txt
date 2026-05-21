@@ -10,4 +10,5 @@ langchain-google-genai
 ragas
 datasets
 pandas
-
+fastapi
+uvicorn[standard]
