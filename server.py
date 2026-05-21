@@ -4,7 +4,7 @@ Provides async API endpoints for scalable, multi-user content generation
 with concurrent processing, response caching, and rate limiting.
 
 Usage:
-    uvicorn server:app --host 0.0.0.0 --port 8000 --workers 4
+    uvicorn server:app --host 0.0.0.0 --port 8000 --reload
 """
 
 import os
