@@ -1,0 +1,23 @@
+{
+    "overall_metrics": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.75,
+        "context_recall": 1.0
+    },
+    "query_wise_evaluation": [
+        {
+            "question": "What is AEO?",
+            "ground_truth": "AEO (Answer Engine Optimization) focuses on optimizing content for AI-powered answer engines instead of traditional search engine results pages.",
+            "faithfulness": 1.0,
+            "answer_relevancy": 0.82,
+            "context_recall": 1.0
+        },
+        {
+            "question": "How is AEO different from SEO?",
+            "ground_truth": "While SEO focuses on ranking blue links on search engine results pages (SERPs), AEO focuses on providing direct, structured answers that AI search engines can easily synthesize and display.",
+            "faithfulness": 1.0,
+            "answer_relevancy": 0.68,
+            "context_recall": 1.0
+        }
+    ]
+}

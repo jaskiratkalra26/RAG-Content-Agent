@@ -1,0 +1,13 @@
+langchain
+langchain-community
+langchain-text-splitters
+pypdf
+chromadb
+sentence-transformers
+google-generativeai
+python-dotenv
+langchain-google-genai
+ragas
+datasets
+pandas
+

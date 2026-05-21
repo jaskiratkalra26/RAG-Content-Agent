@@ -1,0 +1,18 @@
+# Virtual environment
+venv/
+
+# Environment secrets
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Vector database (ChromaDB)
+chroma_db/
+
+# Processed intermediate data
+data/processed/*.pkl
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
